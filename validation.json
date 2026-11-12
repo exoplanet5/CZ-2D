@@ -1,0 +1,252 @@
+{
+ "vehicle": {
+  "name": "CZ-2D",
+  "s1_T_sl": 2961600.0,
+  "s1_isp_sl": 260.0276343093717,
+  "s1_isp_vac": 288.5796882727537,
+  "s1_prop": 182000.0,
+  "s1_dry": 9800.0,
+  "T_main": 742040.0,
+  "isp_main": 300.0005098581065,
+  "T_vern": 47100.0,
+  "isp_vern": 288.98757475794486,
+  "s2_prop": 52700.0,
+  "s2_dry": 4500.0,
+  "s2_reserve": 300.0,
+  "fairing": 1100.0,
+  "adapter": 0.0,
+  "diameter": 3.35,
+  "t_rise": 15.0,
+  "a_max1": 1000.0,
+  "f_min1": 1.0,
+  "dt_sep": 1.0,
+  "beta_s1": 350.0,
+  "beta_fair": 30.0,
+  "q_fair": 1135.0
+ },
+ "capacity": {
+  "500": {
+   "model_kg": 1899,
+   "published_kg": 1900.0,
+   "t_meco2": 320.5,
+   "t_ins": 823.4
+  },
+  "645": {
+   "model_kg": 1436,
+   "published_kg": 1300.0,
+   "t_meco2": 316.3,
+   "t_ins": 887.8
+  },
+  "700": {
+   "model_kg": 1252,
+   "published_kg": 1300.0,
+   "t_meco2": 315.0,
+   "t_ins": 907.4
+  }
+ },
+ "flights": [
+  {
+   "tag": "Y97 2024-04-15 Siwei Gaojing 3-01",
+   "inc": 97.4861,
+   "h": 496.1,
+   "payload": 600.0,
+   "az": 194.58,
+   "kick": 0.277,
+   "meco_plane_i": 93.96,
+   "raan_pred": 181.78,
+   "raan_tle": 181.4583,
+   "d_raan": 0.321,
+   "margin_kg": 1324,
+   "t_meco1": 156.7,
+   "t_meco2": 315.3,
+   "t_ins": 822.5,
+   "yaw_tan": [
+    -0.0183,
+    -0.0031
+   ]
+  },
+  {
+   "tag": "Y101 2025-01-17 PRSC-EO1 +2",
+   "inc": 97.483,
+   "h": 524.2,
+   "payload": 666.0,
+   "az": 195.56,
+   "kick": 0.288,
+   "meco_plane_i": 94.88,
+   "raan_pred": 93.77,
+   "raan_tle": 93.5919,
+   "d_raan": 0.178,
+   "margin_kg": 1159,
+   "t_meco1": 156.7,
+   "t_meco2": 314.9,
+   "t_ins": 839.3,
+   "yaw_tan": [
+    -0.0132,
+    -0.0024
+   ]
+  },
+  {
+   "tag": "Y100 2025-03-15 Superview 3-02 +1",
+   "inc": 97.4889,
+   "h": 495.9,
+   "payload": 1100.0,
+   "az": 194.55,
+   "kick": 0.254,
+   "meco_plane_i": 93.75,
+   "raan_pred": 151.158,
+   "raan_tle": 151.0687,
+   "d_raan": 0.09,
+   "margin_kg": 821,
+   "t_meco1": 156.7,
+   "t_meco2": 317.3,
+   "t_ins": 822.4,
+   "yaw_tan": [
+    -0.019,
+    -0.0031
+   ]
+  },
+  {
+   "tag": "Y42 2025-06-14 Zhangheng 1-02",
+   "inc": 97.3165,
+   "h": 497.4,
+   "payload": 730.0,
+   "az": 195.14,
+   "kick": 0.253,
+   "meco_plane_i": 94.09,
+   "raan_pred": 296.967,
+   "raan_tle": 296.8225,
+   "d_raan": 0.145,
+   "margin_kg": 1154,
+   "t_meco1": 156.7,
+   "t_meco2": 316.3,
+   "t_ins": 818.3,
+   "yaw_tan": [
+    -0.0164,
+    -0.0025
+   ]
+  },
+  {
+   "tag": "Y41 2021-12-29 Tianhui-4 x2",
+   "inc": 88.9993,
+   "h": 490.6,
+   "payload": 2000.0,
+   "az": 184.91,
+   "kick": 0.226,
+   "meco_plane_i": 86.17,
+   "raan_pred": 188.426,
+   "raan_tle": 188.1398,
+   "d_raan": 0.286,
+   "margin_kg": 81,
+   "t_meco1": 156.7,
+   "t_meco2": 320.4,
+   "t_ins": 820.9,
+   "yaw_tan": [
+    -0.0144,
+    -0.0022
+   ],
+   "fairing_impact": [
+    32.975,
+    99.458
+   ],
+   "fairing_vs_far_zone_km": 15.1,
+   "fairing_range_km": 891.1,
+   "far_zone_range_km": 894.3
+  },
+  {
+   "tag": "Y99 2024-12-16 PIESAT-2 09-12",
+   "site": "TSLC LC-9",
+   "inc": 97.4916,
+   "h": 526.0,
+   "payload": 1130.0,
+   "az": 187.67,
+   "kick": 0.296,
+   "meco_plane_i": 88.43,
+   "raan_pred": 295.903,
+   "raan_tle": 295.989,
+   "d_raan": -0.086,
+   "margin_kg": 741,
+   "t_meco1": 156.7,
+   "t_meco2": 316.5,
+   "t_ins": 839.6,
+   "yaw_tan": [
+    -0.0457,
+    -0.0075
+   ],
+   "fairing_along_cross_km": [
+    9.5,
+    17.5
+   ],
+   "fairing_impact": [
+    30.182,
+    109.889
+   ],
+   "fairing_vs_far_zone_km": 19.9,
+   "fairing_range_km": 977.7,
+   "far_zone_range_km": 968.0
+  },
+  {
+   "tag": "Y105 2026-03-25 Superview Neo 2-05/06",
+   "site": "TSLC LC-9",
+   "inc": 97.4363,
+   "h": 506.9,
+   "payload": 1200.0,
+   "az": 188.43,
+   "kick": 0.328,
+   "meco_plane_i": 89.4,
+   "raan_pred": 93.667,
+   "raan_tle": 93.5445,
+   "d_raan": 0.123,
+   "margin_kg": 721,
+   "t_meco1": 156.7,
+   "t_meco2": 316.7,
+   "t_ins": 837.9,
+   "yaw_tan": [
+    -0.0415,
+    -0.0076
+   ],
+   "fairing_along_cross_km": [
+    122.6,
+    7.4
+   ],
+   "fairing_impact": [
+    28.737,
+    109.49
+   ],
+   "fairing_vs_far_zone_km": 122.8,
+   "fairing_range_km": 1142.5,
+   "far_zone_range_km": 1019.8
+  },
+  {
+   "tag": "Y104 2026-09-19 PIESAT-2 13-16",
+   "site": "TSLC LC-9",
+   "inc": 97.4915,
+   "h": 525.9,
+   "payload": 1080.0,
+   "az": 187.67,
+   "kick": 0.298,
+   "meco_plane_i": 88.45,
+   "raan_pred": 88.8,
+   "raan_tle": 88.8964,
+   "d_raan": -0.097,
+   "margin_kg": 791,
+   "t_meco1": 156.7,
+   "t_meco2": 316.3,
+   "t_ins": 840.2,
+   "yaw_tan": [
+    -0.0458,
+    -0.0075
+   ],
+   "fairing_along_cross_km": [
+    14.8,
+    17.8
+   ],
+   "fairing_impact": [
+    30.136,
+    109.879
+   ],
+   "fairing_vs_far_zone_km": 23.1,
+   "fairing_range_km": 983.0,
+   "far_zone_range_km": 968.0
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "default_profile": "sso",
+  "supported_families": [
+    "retrograde",
+    "polar",
+    "sso",
+    "low-inclination"
+  ],
+  "profiles": [
+    {
+      "id": "sso",
+      "label": "Sun-synchronous · 97–98°",
+      "family": "sso",
+      "default_mission": "cz2d-tslc-1118",
+      "missions": [
+        {
+          "id": "cz2d-tslc-1118",
+          "label": "CZ-2D · Taiyuan · 18 Nov",
+          "file": "data/cz2d-tslc-1118.json"
+        },
+        {
+          "id": "cz2d-y108",
+          "label": "CZ-2D Y108 · Jiuquan · 11 Nov",
+          "file": "data/cz2d-y108.json"
+        }
+      ]
+    }
+  ]
+}
